@@ -34,3 +34,19 @@ Route::get('acaraku', function (){
 Route::get('buatacara', function (){
     return view('buatacara');
 })->name('buatacara');
+
+Route::get('kontak', function (){
+    return view('contact');
+})->name('kontak');
+
+Route::get('tentang', function (){
+    return view('about-us');
+})->name('tentang');
+
+Route::get('pengaturan', function (){
+    return view('pengaturan');
+})->name('pengaturan');
+
+Route::get('mark', function (){
+    return view('mark');
+})->name('mark');

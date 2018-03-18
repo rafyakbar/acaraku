@@ -1,7 +1,7 @@
 @extends('layouts.global')
 
 @section('content')
-    <div style="margin: 2%">
+    <div style="margin: 5%">
         <div class="row">
             <h3 class="text-center">Terdapat <b>123 Acara</b></h3>
             <br>
