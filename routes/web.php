@@ -26,3 +26,7 @@ Route::get('result', function (){
 Route::get('detail', function (){
     return view('detail');
 })->name('detail');
+
+Route::get('acaraku', function (){
+    return view('acaraku');
+})->name('acaraku');

@@ -35,7 +35,7 @@ body a:hover{
 	position:relative;
 }
 .banner1{
-	min-height: 500px;
+	min-height: 200px;
     background: url(../images/banner.jpg) no-repeat 0px 0px;
     background-size: cover;
 	-webkit-background-size: cover;
@@ -1601,7 +1601,7 @@ p.ever{
 		padding: 3em 0;
 	}
 	.banner1 {
-		min-height: 400px;
+		min-height: 160px;
 	}
 }
 @media (max-width:768px){
@@ -1736,7 +1736,7 @@ p.ever{
 		margin: 0 0 2em;
 	}
 	.banner1 {
-		min-height: 300px;
+		min-height: 120px;
 	}
 	li.desti1:nth-child(2) {
 		margin-left: 1.5em;
@@ -2110,7 +2110,7 @@ p.ever{
 		margin: 2em 0 0 !important;
 	}
 	.banner1 {
-		min-height: 200px;
+		min-height: 80px;
 	}
 }
 @media (max-width:414px){

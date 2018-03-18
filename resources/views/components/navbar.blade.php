@@ -1,13 +1,16 @@
 <nav class="pull">
     <ul class="nav">
-        <li><a href="index.html" class="active"> Home</a></li>
-        <li><a href="#about" class="scroll"> About</a></li>
-        <li><a href="#portfolio" class="menu scroll">Popular Places<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a></li>
-        <ul class="nav-sub">
-            <li><a href="#portfolio" class="scroll">Place 1</a></li>
-            <li><a href="#portfolio" class="scroll">Place 2</a></li>
-            <li><a href="#portfolio" class="scroll">Place 3</a></li>
-        </ul>
+        @if(Route::currentRouteName() == 'welcome')
+            <li><a href="{{ url('login') }}">Login</a></li>
+            <li><a href="{{ url('login') }}">Register</a></li>
+        @else
+            <li><a>Hai, Rafy Aulia Akbar</a></li>
+            <li><a href="{{ route('acaraku') }}">Acaraku</a></li>
+            <li><a href="">Buat Acara</a></li>
+            <li><a href="">Tiket</a></li>
+            <li><a href="">Pengaturan</a></li>
+            <li><a href="">Keluar</a></li>
+        @endif
         <script>
             $( "li a.menu" ).click(function() {
                 $( "ul.nav-sub" ).slideToggle( 300, function() {
@@ -15,7 +18,5 @@
                 });
             });
         </script>
-        <li><a href="#events" class="scroll"> Events</a></li>
-        <li><a href="#mail" class="scroll"> Mail us</a></li>
     </ul>
 </nav>
