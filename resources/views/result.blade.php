@@ -14,7 +14,7 @@
                     <div class="row">
                         <div class="col-md-1"></div>
                         <div class="col-md-11">
-                            <a href="">
+                            <a href="{{ route('detail')  }}">
                                 <div class="about-grid">
                                     <div class="about-grid1">
                                         <div class="itis">
