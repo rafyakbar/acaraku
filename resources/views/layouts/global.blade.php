@@ -86,6 +86,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 @yield('content')
 @include('components.footer')
 <!-- here stars scrolling icon -->
+<script src="{{ asset('tinymce/tinymce.min.js') }}"></script>
 <script type="text/javascript">
     $(document).ready(function() {
         /*

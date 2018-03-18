@@ -6,7 +6,7 @@
         @else
             <li><a>Hai, Rafy Aulia Akbar</a></li>
             <li><a href="{{ route('acaraku') }}">Acaraku</a></li>
-            <li><a href="">Buat Acara</a></li>
+            <li><a href="{{ route('buatacara') }}">Buat Acara</a></li>
             <li><a href="">Tiket</a></li>
             <li><a href="">Pengaturan</a></li>
             <li><a href="">Keluar</a></li>

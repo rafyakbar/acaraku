@@ -30,3 +30,7 @@ Route::get('detail', function (){
 Route::get('acaraku', function (){
     return view('acaraku');
 })->name('acaraku');
+
+Route::get('buatacara', function (){
+    return view('buatacara');
+})->name('buatacara');
